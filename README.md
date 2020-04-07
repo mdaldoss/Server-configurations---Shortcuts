@@ -3,6 +3,8 @@ An extraction of useful comands and tools to configure a remote server
 
 
 ## Adding access through SSH key
+It is usefull for allowing access without password prompt in ssh, Visual Studio Code and many other applications, while improving security during the authentication.
+
 ### Generate RSA key pair
 The command is:
 
