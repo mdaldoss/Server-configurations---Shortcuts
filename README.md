@@ -33,4 +33,10 @@ docker load < my-docker-image.img
 ## Lunch Docker
 docker-compose up
 
+## Docker Hub - login
+docker login --username username
+
+# Push image to docker Registry
+docker tag your-image-id-518a41981a6a myRegistry.com/myImage
+docker push myRegistry.com/myImage
 
