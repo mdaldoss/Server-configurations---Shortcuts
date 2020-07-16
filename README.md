@@ -23,7 +23,12 @@ Easy tool to transfer the public key to the server is this command:
 `ssh-copy-id username@remote_host`
 
 
+# Docker references
 
+## Load an image 
+docker load < my-docker-image.img
 
+## Lunch Docker
+docker-compose up
 
 
