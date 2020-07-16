@@ -22,6 +22,8 @@ Easy tool to transfer the public key to the server is this command:
 
 `ssh-copy-id username@remote_host`
 
+### Copy public RSA key to Keyboard
+cat ~/.ssh/id_rsa.pub | pbcopy
 
 # Docker references
 
